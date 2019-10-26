@@ -1,68 +1,38 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# Easy Point of Sale
 
-In the project directory, you can run:
+Easy Point Of Sale is a web-based application that is useful for the needs of grocery stalls, with not much product coverage and only has admin access rights as the manager of the point of sell.
 
-### `npm start`
+Inside there are features of updating, deleting, creating, and displaying products, categories and orders for each sale, the system is website based and is still in the design process.
+## Built With
+[![Express.js](https://img.shields.io/badge/reactjs-16.10.2-yellow?style=rounded-square)](https://expressjs.com/en/starter/installing.html) [![Node.js](https://img.shields.io/badge/materialui-4.5.1-greenstyle?rounded-square)](https://nodejs.org/) [![MySQL](https://img.shields.io/badge/reactrouterdom-5.1.2-blue?rounded-square)](https://www.npmjs.com/search?q=mysql) [![MySQL](https://img.shields.io/badge/reactnumberformat-1.19.0-red?rounded-square)](https://www.npmjs.com/package/body-parser) [![Morgan](https://img.shields.io/badge/morgan-1.9.1-brightgreen?style=rounded-square)](https://www.npmjs.com/package/morgan) [![CORS](https://img.shields.io/badge/cors-2.8.5-lightgrey?style=rounded-square)](https://www.npmjs.com/package/cors) [![CORS](https://img.shields.io/badge/jsonwebtoken-8.5.1-yellowgreen?style=rounded-square)](https://www.npmjs.com/package/jsonwebtoken)
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Requirements
+1. [Node JS](https://nodejs.org/en/download/)
+2. [React JS](https://reactjs.org/)
+3. Web Server (ex. localhost)
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Getting Started
+Clone the project into local
 
-### `npm test`
+Install all the npm packages. Go into the project folder and type the following command to install all npm packages
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+``npm install``
 
-### `npm run build`
+In order to run the application Type the following command
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+``npm start``
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+The Application Runs on  **localhost:3000**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Application design
+1.  **Product**  Component : This Component displays a list of product. This Component gets the data from a json file in my other project in express JS check my repository *API Express Point of Sale*
 
-### `npm run eject`
+2.  **Category**  Component : This Component Displays  category. This Component gets its data from a my other project in express JS check my repository *API Express Point of Sale*
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## HTTP client
+**axios**  library is used to make HTTP Calls, Open source library which is currently the most booming to make HTTP requests because it has many advantages
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## URL
+The application has just one url /customerlist which ties to  _Customers_  Component
