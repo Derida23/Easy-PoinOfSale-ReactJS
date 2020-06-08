@@ -3,7 +3,7 @@
 
 Easy Point Of Sale is a web-based application that is useful for the needs of grocery stalls, with not much product coverage and only has admin access rights as the manager of the point of sell.
 
-Inside there are features of updating, deleting, creating, and displaying products, categories and orders for each sale, the system is website based and is still in the design process.
+Inside there are features of updating, deleting, creating, and displaying products, categories and orders for each sale, the system is website based and is still in the design process. 
 ## Built With
 [![Express.js](https://img.shields.io/badge/reactjs-16.10.2-yellow?style=rounded-square)](https://expressjs.com/en/starter/installing.html) [![Node.js](https://img.shields.io/badge/materialui-4.5.1-greenstyle?rounded-square)](https://nodejs.org/) [![MySQL](https://img.shields.io/badge/reactrouterdom-5.1.2-blue?rounded-square)](https://www.npmjs.com/search?q=mysql) [![MySQL](https://img.shields.io/badge/reactnumberformat-1.19.0-red?rounded-square)](https://www.npmjs.com/package/body-parser) [![CORS](https://img.shields.io/badge/cors-2.8.5-lightgrey?style=rounded-square)](https://www.npmjs.com/package/cors) [![CORS](https://img.shields.io/badge/jsonwebtoken-8.5.1-yellowgreen?style=rounded-square)](https://www.npmjs.com/package/jsonwebtoken)
 
